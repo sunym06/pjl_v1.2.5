@@ -20,5 +20,3 @@ class AndroidClient(object):
         cls.driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
         cls.driver.implicitly_wait(10)
         return cls.driver
-
-a = AndroidClient
