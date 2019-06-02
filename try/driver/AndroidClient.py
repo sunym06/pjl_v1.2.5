@@ -5,7 +5,7 @@ class AndroidClient(object):
 
     driver:WebDriver
     @classmethod
-    def install_app(cls) -> WebDriver:
+    def install_app(cls)-> WebDriver:
         caps = {}
         #如果有必要，进行第一次安装
         # caps["app"]=''
